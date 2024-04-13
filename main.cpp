@@ -14,7 +14,7 @@ constexpr auto OT_ERROR = 3;
 
 int ASLR(int offset)
 {
-	return (offset - 0x00400000 + (DWORD)GetModuleHandle(NULL));  // Dont have the offset yet for roblox
+	return (offset - 0x00400000 + (DWORD)GetModuleHandle(NULL));
 }
 
 void ConsoleBypass()
